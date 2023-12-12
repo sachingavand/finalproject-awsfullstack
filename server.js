@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const app = express();
-const url = "http://10.0.14.207:8443/restaurant/";
 
 // React DIST output folderknkjnj
 app.use(express.static(path.join(__dirname, 'build')));
